@@ -1,4 +1,5 @@
 Vital Sign: Systolic Blood Pressure (SBP)
+
 Systolic Blood Pressure (SBP) measures the pressure in the arteries when the heart contracts and pumps blood to the rest
 of the body. In adults, a normal SBP is typically less than 120 mmHg. Values between 120 and 139 mmHg are considered
 elevated and may indicate an increased risk of developing hypertension. A systolic pressure of 140 mmHg or higher is
