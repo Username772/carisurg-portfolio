@@ -1,8 +1,8 @@
-Week 0: Orientation, Onboarding & Python Readiness 
+# **Week 0: Orientation, Onboarding & Python Readiness** 
 
-Assignment 4 - Vital Sign Description (Day 4) 
+**Assignment 4 - Vital Sign Description (Day 4)** 
 
-Vital Sign: Respiratory Rate (RR) 
+**Vital Sign: Respiratory Rate (RR)** 
 
 Respiratory rate (RR) is the number of breaths a person takes per minute and is an important 
 indicator of respiratory and overall physiological function. In healthy adults, a normal respiratory 
