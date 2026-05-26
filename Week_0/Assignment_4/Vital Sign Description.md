@@ -4,6 +4,7 @@
 
 ### **Vital Sign: Respiratory Rate (RR)** 
 
+<p align="justify">
 Respiratory rate (RR) is the number of breaths a person takes per minute and is an important 
 indicator of respiratory and overall physiological function. In healthy adults, a normal respiratory 
 rate is typically between 12 and 20 breaths per minute. A respiratory rate above 20 breaths per 
@@ -17,3 +18,4 @@ Triage nurses use respiratory rate measurements to assess the severity of illnes
 requiring urgent intervention, and monitor the effectiveness of treatment. Accurate monitoring of 
 RR helps healthcare professionals recognise critical conditions early and improve patient 
 outcomes.
+</p>
