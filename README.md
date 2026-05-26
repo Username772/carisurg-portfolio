@@ -1,19 +1,8 @@
 # carisurg-portfolio
 
-This repository contains my weekly work for the CariSurg MedTech Pathways Programme.
+This week was mainly about getting set up and learning how to use the tools we will need for the rest of the programme, including Google Colab, Python, and GitHub. We also started working with a simple clinical dataset from an emergency department to get used to handling health data.
 
-Each week focuses on building skills in Python, data analysis, and clinical AI through small projects based on healthcare datasets. The programme is designed to simulate real-world clinical AI workflows using emergency department data.
-
-This repo will be updated weekly as the programme progresses.
-
-📁 Repository Structure
-carisurg-portfolio/
-│
-├── *week0/*
-│   ├── Assignment 1 - 6 
-     Career_Challenges 
-
-🧪 Week 0 Summary
+The focus was not on building advanced models, but on learning the basics and building a consistent workflow.
 
 Week 0 was an onboarding week focused on getting set up and learning the basics.
 
