@@ -1,3 +1,5 @@
+Assignment 4 - Vital Sign Description (Day 4) 
+
 Vital Sign: Respiratory Rate (RR) 
 
 Respiratory rate (RR) is the number of breaths a person takes per minute and is an important 
