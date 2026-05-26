@@ -1,3 +1,5 @@
+Week 0: Orientation, Onboarding & Python Readiness 
+
 Assignment 4 - Vital Sign Description (Day 4) 
 
 Vital Sign: Respiratory Rate (RR) 
