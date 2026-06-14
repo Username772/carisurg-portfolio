@@ -5,7 +5,7 @@ This repository contains Week 0 and Week 1 work for the CariSurg Healthcare AI P
 ## Project Structure
 
 - notebooks/ → Week 0 Jupyter notebook (clinical triage analysis)
-- docs/ → Week 1 memo and supporting documentation
+- 'docs/' → Week 1 memo and supporting documentation
 - data/ → Placeholder for Week 0 dataset (not stored in repo for governance reasons)
 - Project setup files added: README.md, LICENSE (MIT), .gitignore, and requirements.txt
 - Feature branch workflow used with pull request successfully merged into main
