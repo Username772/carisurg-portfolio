@@ -1,9 +1,19 @@
-# CariSurg Healthcare AI Program
+# CariSurg Healthcare AI Portfolio
+
+This repository contains Week 0 and Week 1 work for the CariSurg Healthcare AI Programme, focusing on clinical triage analysis and documentation.
 
 ## Project Structure
 
-The repository is organised as follows:
+- notebooks/ → Week 0 Jupyter notebook (clinical triage analysis)
+- docs/ → Week 1 memo and supporting documentation
+- data/ → Placeholder for Week 0 dataset (not stored in repo for governance reasons)
 
-- `notebooks/` – contains the Week 0 Jupyter notebook for clinical triage analysis
-- `docs/` – contains Week 1 memo and project documentation
-- `data/` – contains information about the Week 0 dataset (not stored in repo)
+## Setup
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+## Purpose
+
+This project demonstrates reproducible clinical data analysis and structured research documentation.
