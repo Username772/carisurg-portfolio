@@ -25,7 +25,7 @@ This repository is intended for:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/carisurg-portfolio.git
+git clone https://github.com/Username772/carisurg-portfolio.git
 cd carisurg-portfolio
 ```
 
