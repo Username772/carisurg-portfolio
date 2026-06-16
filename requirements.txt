@@ -1,8 +1,1 @@
-# Data manipulation
-pandas==2.3.1
 
-# Numerical operations
-numpy==2.3.2
-
-# Data visualization
-matplotlib==3.10.5
