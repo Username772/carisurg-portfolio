@@ -1,25 +1,49 @@
-# carisurg-portfolio
+# Carisurg Portfolio
 
-## Overview ##
+## Overview
 
-This repository contains my Week 0 onboarding work for the CariSurg MedTech Pathways Programme, part of the Clinical AI & Innovation Unit at Mercer General Hospital.
+This repository contains coursework, analyses, documentation, and project deliverables completed as part of the Carisurg programme.
 
-This week was mainly about getting set up and learning how to use the tools we will need for the rest of the programme, including Google Colab, Python, and GitHub. We also started working with a simple clinical dataset from an emergency department to get used to handling health data.
+## Intended Audience
 
-The focus was not on building advanced models, but on learning the basics and building a consistent workflow. Week 0 was an onboarding week focused on getting set up and learning the basics.
+This repository is intended for:
 
-## What I Did ##
-* Set up Google Colab and Google Drive
-* Created a GitHub repository
-* Loaded and explored a clinical triage dataset
-* Performed basic data analysis using pandas
-* Created simple visualisations (histogram and scatter plot)
-* Wrote a short explanation of a vital sign
-* Developed simple rule-based logic for identifying at-risk patients
+* Programme instructors and reviewers
+* Collaborators and mentors
+* Anyone interested in reviewing the project's analyses and documentation
 
-## Tools Used ##
-* Python
-* Google Colab
-* Pandas
-* Matplotlib
-* Git & GitHub
+## Repository Structure
+
+* `notebooks/` – Jupyter notebooks containing data analysis work, including the Week 0 notebook
+* `docs/` – Written deliverables such as the Week 1 memo and proposal
+* `data/` – Location for project datasets (datasets are not uploaded to GitHub if they contain sensitive information)
+* `requirements.txt` – Python libraries and versions required to run the project
+* `.gitignore` – Files excluded from version control
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/carisurg-portfolio.git
+cd carisurg-portfolio
+```
+
+2. Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the Week 0 notebook:
+
+```bash
+jupyter notebook
+```
+
+Navigate to the `notebooks/` folder and open the notebook.
+
+## License
+
+This project is licensed under the MIT License.
+
