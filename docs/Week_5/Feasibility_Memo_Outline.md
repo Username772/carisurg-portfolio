@@ -2,14 +2,14 @@
 
 **Prepared for:** Dr. De Fretias & Emergency Department Board
 
-##Executive Verdict
+## 1. Executive Verdict
 
 * Preliminary assessment of whether the dataset is suitable for AI-assisted triage prediction.
 * Brief statement outlining the need for preprocessing and validation before model development.
 
 ---
 
-## Dataset Summary
+## 2. Dataset Summary
 
 * Overview of the emergency department dataset.
 * Number of patient encounters and clinical variables.
@@ -24,27 +24,27 @@
 
 ---
 
-## Data Quality Assessment
+## 3. Data Quality Assessment
 
-### Missing Data
+### 3.1 Missing Data
 
 * Summary of missingness analysis.
 * Discussion of structured variable completeness.
- **Figure 1:** Missingness Matrix
+* **Figure 1:** Missingness Matrix
 
-### Demographic Characteristics
+### 3.2 Demographic Characteristics
 
 * Summary of age, gender, race, and ethnicity.
 * Importance of demographics for understanding the patient population.
 * **Figure 2:** Race and Ethnicity Distribution
 
-### Chief Complaint Distribution
+### 3.3 Chief Complaint Distribution
 
 * Overview of the most common presenting complaints.
 * Clinical relevance to emergency department triage.
 * **Figure 3:** Top Chief Complaints
 
-### Vital Signs
+### 3.4 Vital Signs
 
 * Overview of triage vital-sign distributions.
 * Identification of potential outliers and clinical variability.
@@ -52,7 +52,7 @@
 
 ---
 
-## Top Three Reasons to Proceed
+## 4. Top Three Reasons to Proceed
 
 * Rich clinical information available.
 * High completeness of structured variables.
@@ -60,7 +60,7 @@
 
 ---
 
-## Top Three Data Quality Concerns
+## 5. Top Three Data Quality Concerns
 
 * Class imbalance across ESI categories.
 * High-dimensional chief complaint variables.
@@ -68,7 +68,7 @@
 
 ---
 
-## Planned Top-10 Candidate Predictive Features
+## 6. Planned Top-10 Candidate Predictive Features
 
 * Respiratory Rate
 * Heart Rate
@@ -83,7 +83,7 @@
 
 ---
 
-## Limitations
+## 7. Limitations
 
 * Single-site dataset.
 * Need for preprocessing and feature engineering.
@@ -91,15 +91,11 @@
 
 ---
 
-## Recommendation to the ED Board
+## 8. Recommendation to the ED Board
 
 * Summarise preliminary findings.
 * Outline planned preprocessing and validation steps.
 * State that a final feasibility recommendation will be confirmed after completion of the full exploratory analysis.
----
-## Week 6 Next Steps
 
-* Complete cleaning decisions
-* Finalise data-quality assessment
-* Produce top-10 feature shortlist
-* Develop baseline triage prediction model
+---
+
