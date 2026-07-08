@@ -66,3 +66,7 @@ dist/
 .cache/
 .mypy_cache/
 .ruff_cache/
+
+# Ignore Week 5 clinical dataset
+data/yaleemmlc_admissionprediction_triage.csv
+
