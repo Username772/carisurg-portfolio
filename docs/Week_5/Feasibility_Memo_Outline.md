@@ -32,7 +32,7 @@
 
 * Summary of missingness analysis.
 * Discussion of structured variable completeness.
-* **Figure 1:** Missingness Matrix
+ **Figure 1:** Missingness Matrix
 
 ### 3.2 Demographic Characteristics
 
