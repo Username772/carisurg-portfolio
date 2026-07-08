@@ -1,71 +1,104 @@
-# Feasibility Memo Outline – Week 5
+---
 
-## Preliminary Verdict
+# Week 5 AI-Assisted Emergency Department Triage Dataset – Feasibility Memo (Outline)
 
-The emergency department triage dataset appears suitable for development of a baseline machine learning model, subject to appropriate handling of missing values, data quality issues, and validation of clinically important variables.
+**Prepared for:** Dr. De Fretias & Emergency Department Board
 
-## Dataset Summary
+## 1. Executive Verdict
 
-The dataset contains emergency department patient encounters extracted from an electronic health record system. Variables include:
+* Preliminary assessment of whether the dataset is suitable for AI-assisted triage prediction.
+* Brief statement outlining the need for preprocessing and validation before model development.
 
-* Demographic information
-* Triage-level assignment (ESI)
-* Vital signs
-* Clinical assessment variables
-* Chief complaint indicators
+---
 
-The dataset provides information commonly used during emergency department triage and therefore has potential value for predictive modelling.
+## 2. Dataset Summary
 
-## Initial Data Quality Findings
+* Overview of the emergency department dataset.
+* Number of patient encounters and clinical variables.
+* Target variable (Emergency Severity Index - ESI).
+* Types of variables available:
 
-### Missing Data
+  * Demographics
+  * Arrival information
+  * Triage vital signs
+  * Chief complaints
+  * Clinical disposition
 
-Several structured variables contain missing values that will require assessment before modelling.
+---
 
-### Data Types
+## 3. Data Quality Assessment
 
-The dataset contains numerical, categorical, and binary indicator variables. Some variables may require datatype conversion and standardisation.
+### 3.1 Missing Data
 
-### Outliers
+* Summary of missingness analysis.
+* Discussion of structured variable completeness.
+* **Figure 1:** Missingness Matrix
 
-Vital-sign variables should be reviewed against clinically plausible ranges to identify potential data-entry errors.
+### 3.2 Demographic Characteristics
 
-## Reasons to Proceed
+* Summary of age, gender, race, and ethnicity.
+* Importance of demographics for understanding the patient population.
+* **Figure 2:** Race and Ethnicity Distribution
 
-### 1. Rich Clinical Information
+### 3.3 Chief Complaint Distribution
 
-The dataset contains multiple variables routinely used by clinicians when assigning triage priority.
+* Overview of the most common presenting complaints.
+* Clinical relevance to emergency department triage.
+* **Figure 3:** Top Chief Complaints
 
-### 2. Real-World Emergency Department Data
+### 3.4 Vital Signs
 
-The dataset reflects actual clinical practice and emergency department workflows.
+* Overview of triage vital-sign distributions.
+* Identification of potential outliers and clinical variability.
+* **Figure 4:** Distribution of Triage Vital Signs Across ESI Levels
 
-### 3. Large Feature Set
+---
 
-The number of available variables provides opportunities for identifying meaningful predictors of triage level.
+## 4. Top Three Reasons to Proceed
 
-## Main Concerns
+* Rich clinical information available.
+* High completeness of structured variables.
+* Large sample size suitable for predictive modelling.
 
-### 1. Missing Values
+---
 
-Missing observations may affect model performance and require appropriate handling.
+## 5. Top Three Data Quality Concerns
 
-### 2. Potential Class Imbalance
+* Class imbalance across ESI categories.
+* High-dimensional chief complaint variables.
+* Presence of potential clinical outliers.
 
-The distribution of ESI categories may not be uniform and could affect predictive performance.
+---
 
-### 3. Feature Redundancy
+## 6. Planned Top-10 Candidate Predictive Features
 
-Some variables may be highly correlated or clinically overlapping.
+* Respiratory Rate
+* Heart Rate
+* Oxygen Saturation
+* Systolic Blood Pressure
+* Temperature
+* Age
+* Chief Complaint
+* Pain Score
+* Arrival Mode
+* Previous Disposition
 
-## Planned Visualisations
+---
 
-* Missingness heatmap
-* ESI/Triage distribution
-* Age distribution
-* Race and ethnicity distribution
-* Chief complaint frequency analysis
+## 7. Limitations
 
+* Single-site dataset.
+* Need for preprocessing and feature engineering.
+* Potential fairness and generalisability considerations.
+
+---
+
+## 8. Recommendation to the ED Board
+
+* Summarise preliminary findings.
+* Outline planned preprocessing and validation steps.
+* State that a final feasibility recommendation will be confirmed after completion of the full exploratory analysis.
+---
 ## Week 6 Next Steps
 
 * Complete cleaning decisions
