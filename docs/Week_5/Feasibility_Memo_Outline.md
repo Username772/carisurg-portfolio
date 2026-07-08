@@ -4,14 +4,14 @@
 
 **Prepared for:** Dr. De Fretias & Emergency Department Board
 
-## 1. Executive Verdict
+##Executive Verdict
 
 * Preliminary assessment of whether the dataset is suitable for AI-assisted triage prediction.
 * Brief statement outlining the need for preprocessing and validation before model development.
 
 ---
 
-## 2. Dataset Summary
+## Dataset Summary
 
 * Overview of the emergency department dataset.
 * Number of patient encounters and clinical variables.
@@ -26,27 +26,27 @@
 
 ---
 
-## 3. Data Quality Assessment
+## Data Quality Assessment
 
-### 3.1 Missing Data
+### Missing Data
 
 * Summary of missingness analysis.
 * Discussion of structured variable completeness.
  **Figure 1:** Missingness Matrix
 
-### 3.2 Demographic Characteristics
+### Demographic Characteristics
 
 * Summary of age, gender, race, and ethnicity.
 * Importance of demographics for understanding the patient population.
 * **Figure 2:** Race and Ethnicity Distribution
 
-### 3.3 Chief Complaint Distribution
+### Chief Complaint Distribution
 
 * Overview of the most common presenting complaints.
 * Clinical relevance to emergency department triage.
 * **Figure 3:** Top Chief Complaints
 
-### 3.4 Vital Signs
+### Vital Signs
 
 * Overview of triage vital-sign distributions.
 * Identification of potential outliers and clinical variability.
@@ -54,7 +54,7 @@
 
 ---
 
-## 4. Top Three Reasons to Proceed
+## Top Three Reasons to Proceed
 
 * Rich clinical information available.
 * High completeness of structured variables.
@@ -62,7 +62,7 @@
 
 ---
 
-## 5. Top Three Data Quality Concerns
+## Top Three Data Quality Concerns
 
 * Class imbalance across ESI categories.
 * High-dimensional chief complaint variables.
@@ -70,7 +70,7 @@
 
 ---
 
-## 6. Planned Top-10 Candidate Predictive Features
+## Planned Top-10 Candidate Predictive Features
 
 * Respiratory Rate
 * Heart Rate
@@ -85,7 +85,7 @@
 
 ---
 
-## 7. Limitations
+## Limitations
 
 * Single-site dataset.
 * Need for preprocessing and feature engineering.
@@ -93,7 +93,7 @@
 
 ---
 
-## 8. Recommendation to the ED Board
+## Recommendation to the ED Board
 
 * Summarise preliminary findings.
 * Outline planned preprocessing and validation steps.
