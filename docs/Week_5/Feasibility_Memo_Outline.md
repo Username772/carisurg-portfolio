@@ -1,5 +1,3 @@
----
-
 # Week 5 AI-Assisted Emergency Department Triage Dataset – Feasibility Memo (Outline)
 
 **Prepared for:** Dr. De Fretias & Emergency Department Board
