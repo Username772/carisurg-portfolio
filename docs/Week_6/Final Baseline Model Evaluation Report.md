@@ -22,6 +22,9 @@ This report evaluates two baseline machine learning models, a **Logistic Regress
 
 
 
+
+
+
 ### Figure 1. Logistic Regression Confusion Matrix
 <img width="462" height="490" alt="image" src="https://github.com/user-attachments/assets/7fb55e45-b281-47c7-bccb-041232efddfb" />
 
