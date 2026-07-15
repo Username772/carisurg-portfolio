@@ -21,8 +21,8 @@ This report evaluates two baseline machine learning models, a **Logistic Regress
 | Decision Tree | 0.556 | 0.216 | 0.00 |
 
 ### Figure 1. Logistic Regression Confusion Matrix
+<img width="462" height="490" alt="image" src="https://github.com/user-attachments/assets/7fb55e45-b281-47c7-bccb-041232efddfb" />
 
-![Figure 1 - Logistic Regression Confusion Matrix](docs/logistic_regression_confusion_matrix.png)
 
 **Figure 1. Logistic Regression Confusion Matrix.** The confusion matrix for the Logistic Regression model showing the number of correct and incorrect predictions for each Emergency Severity Index (ESI) level.
 
