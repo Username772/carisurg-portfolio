@@ -1,9 +1,7 @@
 #Week 6 Interim Submission - CariSurg Healthcare AI Program
 ## AI-Assisted Triage: Data Exploration (Part 2 of 2)
 
-**Date:** July 14, 2026
-
-# Week 6 – Baseline Model Evaluation Report
+# Baseline Model Evaluation Report
 
 ---
 
