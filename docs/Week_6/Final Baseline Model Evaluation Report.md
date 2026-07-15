@@ -20,17 +20,22 @@ This report evaluates two baseline machine learning models, a **Logistic Regress
 | Logistic Regression | 0.667 | 0.495 | 0.25 |
 | Decision Tree | 0.556 | 0.216 | 0.00 |
 
+
+
 ### Figure 1. Logistic Regression Confusion Matrix
 <img width="462" height="490" alt="image" src="https://github.com/user-attachments/assets/7fb55e45-b281-47c7-bccb-041232efddfb" />
+
 
 
 **Figure 1. Logistic Regression Confusion Matrix.** The confusion matrix for the Logistic Regression model showing the number of correct and incorrect predictions for each Emergency Severity Index (ESI) level.
 
 The Logistic Regression model achieved the strongest overall performance, with an **accuracy of 66.7%**, substantially outperforming both the DummyClassifier baseline (**37.5%**) and the Decision Tree (**55.6%**). It also achieved the highest **Macro F1 score (0.495)**, indicating better balanced performance across all ESI classes.
 
+
 ### Figure 2. Decision Tree Confusion Matrix
 
 <img width="462" height="490" alt="image" src="https://github.com/user-attachments/assets/caa6b219-446a-4919-93c2-7046f7db8c1c" />
+
 
 **Figure 2. Decision Tree Confusion Matrix.** The confusion matrix for the Decision Tree model showing the number of correct and incorrect predictions for each Emergency Severity Index (ESI) level.
 
@@ -56,9 +61,11 @@ The greatest concern is the model's ability to identify **ESI Level 1** patients
 
 The Logistic Regression model correctly identified some critical patients, achieving a **recall of 0.25**, whereas the Decision Tree failed to identify any **ESI Level 1** patients. In addition, the Decision Tree frequently confused **ESI Level 2** with **ESI Level 3** and also misclassified many **ESI Level 4** patients as **ESI Level 3**.
 
+
 ### Figure 3. Decision Tree Visualization (max_depth = 5)
 
 <img width="1681" height="812" alt="image" src="https://github.com/user-attachments/assets/bfdee719-1727-4d7d-9061-37874b6112c6" />
+
 
 **Figure 3. Decision Tree Visualization (max_depth = 5).** The trained Decision Tree showing the sequence of feature splits used to classify Emergency Severity Index (ESI) levels.
 
