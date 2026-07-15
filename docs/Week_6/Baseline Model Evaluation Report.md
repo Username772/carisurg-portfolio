@@ -30,7 +30,7 @@ The Logistic Regression model achieved the strongest overall performance, with a
 
 ### Figure 2. Decision Tree Confusion Matrix
 
-![Figure 2 - Decision Tree Confusion Matrix](docs/decision_tree_confusion_matrix.png)
+<img width="462" height="490" alt="image" src="https://github.com/user-attachments/assets/caa6b219-446a-4919-93c2-7046f7db8c1c" />
 
 **Figure 2. Decision Tree Confusion Matrix.** The confusion matrix for the Decision Tree model showing the number of correct and incorrect predictions for each Emergency Severity Index (ESI) level.
 
@@ -58,7 +58,7 @@ The Logistic Regression model correctly identified some critical patients, achie
 
 ### Figure 3. Decision Tree Visualization (max_depth = 5)
 
-![Figure 3 - Decision Tree Visualization](docs/decision_tree_visualization.png)
+<img width="1681" height="812" alt="image" src="https://github.com/user-attachments/assets/bfdee719-1727-4d7d-9061-37874b6112c6" />
 
 **Figure 3. Decision Tree Visualization (max_depth = 5).** The trained Decision Tree showing the sequence of feature splits used to classify Emergency Severity Index (ESI) levels.
 
