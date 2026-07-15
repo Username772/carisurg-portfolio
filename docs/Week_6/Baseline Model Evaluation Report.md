@@ -1,5 +1,5 @@
 #Week 6 Interim Submission - CariSurg Healthcare AI Program
-## AI-Assisted Triage: Data Exploration (Part 2 of 2)
+#AI-Assisted Triage: Data Exploration (Part 2 of 2)
 
 # Baseline Model Evaluation Report
 
