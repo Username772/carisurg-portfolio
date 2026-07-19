@@ -1,4 +1,4 @@
-Draft Benchmark Table
+**Draft Benchmark Table**
 
 | Model                          |  Macro-F1 | Status    | Comments                                                                                        |
 | ------------------------------ | :-------: | --------- | ----------------------------------------------------------------------------------------------- |
@@ -11,13 +11,13 @@ Draft Benchmark Table
 
 
 
-Initial Benchmark Discussion
+**Initial Benchmark Discussion**
 
 Five models were benchmarked using macro-F1 to compare overall performance across all Emergency Severity Index (ESI) classes. The Small Multi-Layer Perceptron (MLP) achieved the highest macro-F1 score (0.498), narrowly outperforming the Week 6 Logistic Regression baseline (0.492). Hyperparameter tuning improved the Random Forest model from 0.390 to 0.475, demonstrating that optimisation increased predictive performance. Gradient Boosting achieved a macro-F1 of 0.416, outperforming the untuned Random Forest but remaining below the tuned Random Forest and baseline model. These initial findings suggest that more complex models can improve predictive performance; however, the improvements should also be evaluated alongside training time, inference time, and interpretability before making a deployment decision.
 
 
 
 
-Preliminary Recommendation
+**Preliminary Recommendation**
 
 Based on the current macro-F1 results, the Small MLP is the leading candidate for further evaluation. However, a final recommendation should only be made after completing the full six-axis benchmark, including accuracy, precision, recall, training time, inference time, and interpretability, as outlined in Week 7 Tutorial 3.
