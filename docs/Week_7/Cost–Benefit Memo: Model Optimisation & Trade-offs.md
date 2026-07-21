@@ -8,7 +8,7 @@
 
 ## Executive Verdict
 
-Based on the current benchmark results, the Small Multi-Layer Perceptron (MLP) achieved the highest overall Macro-F1 score (0.498). However, its improvement over the Week 6 Logistic Regression baseline (0.495) was marginal. At this stage, the additional complexity of the MLP is not yet sufficiently justified for clinical deployment, and further evaluation of computational cost, inference speed and interpretability is recommended before replacing the simpler baseline model.
+Based on the current benchmark results, the Small Multi-Layer Perceptron (MLP) achieved the highest overall Macro-F1 score (0.498). However, its improvement over the Week 6 Logistic Regression baseline (0.492) was only 0.006, indicating a marginal increase in predictive performance. At this stage, the additional complexity of the MLP is not yet sufficiently justified for clinical deployment, and further evaluation of computational cost, inference speed and interpretability is recommended before replacing the simpler baseline model.
 
 ---
 
