@@ -72,3 +72,65 @@ Despite this improvement, the tuned Random Forest remained below the Logistic Re
 The Small MLP achieved the highest Macro-F1 score (0.498). However, compared with the Week 6 baseline (0.492), the improvement was only 0.006, representing a relatively small gain considering the increased model complexity.
 
 These findings indicate that although more sophisticated models may improve predictive performance, the magnitude of improvement should be carefully weighed against deployment costs, interpretability and operational complexity before implementation within a clinical environment.
+
+
+# 4. Arguments Supporting the Recommended Model
+
+Although the Small Multi-Layer Perceptron (MLP) produced only a modest improvement over the Logistic Regression baseline, it achieved the highest Macro-F1 score (0.498) among all models evaluated. This indicates that the MLP provided the strongest overall balance of predictive performance across all Emergency Severity Index (ESI) classes.
+
+### Argument 1 – Highest Overall Predictive Performance
+
+The Small MLP achieved the highest Macro-F1 score of all evaluated models. Macro-F1 was selected because it gives equal importance to every triage class, including the relatively uncommon but clinically important ESI Level 1 patients. A higher Macro-F1 suggests the model performs more consistently across both majority and minority classes.
+
+### Argument 2 – Ability to Model Complex Relationships
+
+Unlike Logistic Regression, which assumes a linear relationship between predictors and outcomes, the MLP can learn more complex non-linear relationships among patient demographics, presenting complaints and physiological observations. Emergency department triage decisions often involve interactions between multiple clinical variables, making this additional modelling capability potentially valuable.
+
+### Argument 3 – Future Scalability
+
+Although the current performance gain is small, neural networks generally provide greater flexibility as additional clinical variables become available. Future versions of the triage system may incorporate laboratory results, imaging information or electronic health record data, allowing a neural network to take advantage of richer clinical information.
+
+---
+
+# 5. Arguments Against the Recommended Model
+
+Despite producing the highest Macro-F1 score, several factors limit the immediate suitability of the Small MLP for deployment within the emergency department.
+
+### Argument 1 – Only a Marginal Improvement
+
+The Small MLP achieved a Macro-F1 score of 0.498 compared with 0.492 for the Week 6 Logistic Regression model. This improvement of only 0.006 is unlikely to produce a meaningful clinical benefit on its own. Such a small increase should be interpreted cautiously before investing additional computational resources or increasing system complexity.
+
+### Argument 2 – Reduced Interpretability
+
+Logistic Regression provides transparent coefficients that can be more readily explained to clinicians, whereas neural networks operate largely as "black box" models. In a clinical environment, explainability is important because healthcare professionals must understand and trust the reasoning behind model recommendations before integrating them into patient care.
+
+### Argument 3 – Greater Computational Complexity
+
+Neural networks generally require more computational resources during both training and deployment than simpler statistical models. Although the Small MLP evaluated in this project is relatively lightweight, increased computational requirements may still affect scalability, maintenance and operational costs if deployed across multiple healthcare facilities.
+
+---
+
+# 6. Risks and Unknowns
+
+Several limitations should be considered before progressing to clinical implementation.
+
+The dataset represents patient encounters from a single Caribbean healthcare institution. Consequently, model performance may differ when applied to hospitals with different patient populations, workflows or clinical practices. External validation using data from additional hospitals within Barbados or the wider Caribbean would therefore be required before deployment.
+
+The relatively small number of ESI Level 1 cases remains an important limitation. Although Macro-F1 provides a balanced measure of performance across all classes, further work should continue to prioritise improving the identification of critically ill patients, as delayed recognition could adversely affect patient outcomes.
+
+This evaluation focused primarily on predictive performance. Additional benchmarking of training time, inference time and operational resource requirements should be completed before selecting a production model.
+
+---
+
+# 7. Final Recommendation
+
+The Small Multi-Layer Perceptron achieved the highest Macro-F1 score during this evaluation. However, the improvement over the Logistic Regression baseline was modest. Considering the increased model complexity and reduced interpretability, there is currently insufficient evidence to recommend replacing the existing baseline model for clinical deployment.
+
+Instead, the Logistic Regression model should remain the preferred candidate for Phase 3 while further benchmarking is undertaken. Future work should evaluate computational performance, inference speed, model explainability and external validation before considering implementation within routine emergency department practice.
+
+---
+
+# Conclusion
+
+This study demonstrates that more sophisticated machine learning models do not necessarily provide sufficiently large performance improvements to justify their additional complexity. While the Small MLP achieved the highest Macro-F1 score, its advantage over the Logistic Regression baseline was minimal. The results therefore support a cautious approach in which predictive performance is balanced against interpretability, computational cost and clinical usability. This approach aligns with the objectives of the Emergency Department Board and Mercer IT Governance by ensuring that any future deployment is evidence-based, transparent and appropriate for a high-risk clinical environment.
+
