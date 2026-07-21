@@ -26,7 +26,7 @@
 
 ## Reasoning
 
-* The Small MLP achieved the highest Macro-F1 score (0.498), but the improvement over the Logistic Regression baseline (0.492) was minimal and may not justify increased implementation complexity.
+The Small MLP achieved the highest Macro-F1 score (0.498), but the improvement over the Logistic Regression baseline (0.492) was only 0.006, which may not justify the additional implementation complexity.
 * Logistic Regression remains the most interpretable model, allowing clinicians to understand and explain model predictions more easily, which is important in emergency department decision-making.
 * Additional evaluation of computational performance, inference time and external validation should be completed before replacing the current baseline with a more complex model.
 
