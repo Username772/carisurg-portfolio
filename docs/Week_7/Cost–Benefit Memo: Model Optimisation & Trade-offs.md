@@ -63,7 +63,7 @@ Model performance was evaluated primarily using Macro-F1 because it gives equal 
 | Random Forest                | **0.390** | Lowest-performing complex model.                                                                 |
 | Tuned Random Forest          | **0.475** | Hyperparameter tuning improved performance considerably but remained below the baseline.         |
 | Gradient Boosting            | **0.416** | Improved over the untuned Random Forest but underperformed the tuned Random Forest and baseline. |
-| Small MLP                    | **0.498** | Highest Macro-F1 achieved during Week 7.                                                         |
+| Small MLP                    | **0.498** | Highest Macro-F1 achieved during Week 7, although only 0.006 higher than the Logistic Regression baseline.                                                       |
 
 Hyperparameter tuning produced a substantial improvement in Random Forest performance, increasing the Macro-F1 score from 0.390 to 0.475. This demonstrates that appropriate model optimisation can improve predictive performance without altering the underlying dataset.
 
