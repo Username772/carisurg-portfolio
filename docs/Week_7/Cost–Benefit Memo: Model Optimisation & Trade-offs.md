@@ -55,7 +55,7 @@ Model performance was evaluated primarily using Macro-F1 because it gives equal 
 
 # 3. Benchmark Results
 
-## Table 1. Model Performance Comparison
+## Table 1. Performance Comparison of Machine Learning Models for Emergency Severity Index (ESI) Prediction
 
 | Model                        |  Macro-F1 | Summary                                                                                          |
 | ---------------------------- | --------: | ------------------------------------------------------------------------------------------------ |
@@ -132,5 +132,5 @@ Instead, the Logistic Regression model should remain the preferred candidate for
 
 # Conclusion
 
-This study demonstrates that more sophisticated machine learning models do not necessarily provide sufficiently large performance improvements to justify their additional complexity. While the Small MLP achieved the highest Macro-F1 score, its advantage over the Logistic Regression baseline was minimal. The results therefore support a cautious approach in which predictive performance is balanced against interpretability, computational cost and clinical usability. This approach aligns with the objectives of the Emergency Department Board and Mercer IT Governance by ensuring that any future deployment is evidence-based, transparent and appropriate for a high-risk clinical environment.
+This study demonstrates that more sophisticated machine learning models do not necessarily provide sufficiently large performance improvements to justify their additional complexity. While the Small MLP achieved the highest Macro-F1 score, its advantage over the Logistic Regression baseline was minimal. The evidence collected during this study suggests that the performance gain is too small to justify replacing the simpler Logistic Regression model at this stage. The results therefore support a cautious approach in which predictive performance is balanced against interpretability, computational cost and clinical usability. This approach aligns with the objectives of the Emergency Department Board and Mercer IT Governance by ensuring that any future deployment is evidence-based, transparent and appropriate for a high-risk clinical environment.
 
