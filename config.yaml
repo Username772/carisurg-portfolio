@@ -12,12 +12,13 @@ seed: 42
 
 paths:
   data: data/triage_cleaned_v1.csv
-  model_output: models/logistic_regression.joblib
+  model_output: models/final_model.joblib
 
 training:
   test_size: 0.20
   target: esi
   stratify: true
+  random_state: 42
 
 model:
   type: LogisticRegression
