@@ -29,7 +29,3 @@ def split_data(df, target="esi", test_size=0.20, random_state=42):
     )
 
     return X_train, X_test, y_train, y_test
-        random_state=random_state
-    )
-
-    return X_train, X_test, y_train, y_test
