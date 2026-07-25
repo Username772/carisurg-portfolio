@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 
 def train_logistic_regression(X_train, y_train):
     """
-    Train the final Logistic Regression model with feature scaling.
+    Train the final Logistic Regression model.
     """
 
     scaler = StandardScaler()
@@ -17,5 +17,7 @@ def train_logistic_regression(X_train, y_train):
     )
 
     model.fit(X_train_scaled, y_train)
+
+    return model, scaler
 
     return model, scaler
