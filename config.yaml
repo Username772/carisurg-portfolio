@@ -20,7 +20,7 @@ training:
   stratify: true
 
 model:
-  name: LogisticRegression
+  type: LogisticRegression
 
 hyperparameters:
   max_iter: 1000
