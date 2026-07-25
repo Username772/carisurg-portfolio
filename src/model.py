@@ -1,15 +1,21 @@
 from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
 
 
 def train_logistic_regression(X_train, y_train):
     """
-    Train the final Logistic Regression model.
+    Train the final Logistic Regression model with feature scaling.
     """
+
+    scaler = StandardScaler()
+
+    X_train_scaled = scaler.fit_transform(X_train)
+
     model = LogisticRegression(
         max_iter=1000,
         random_state=42
     )
 
-    model.fit(X_train, y_train)
+    model.fit(X_train_scaled, y_train)
 
-    return model
+    return model, scaler
