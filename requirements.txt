@@ -1,1 +1,23 @@
+# ==========================================================
+# AI-Assisted Emergency Department Triage
+# Project Dependencies
+# ==========================================================
 
+# Data manipulation
+pandas==2.3.1
+
+# Numerical computing
+numpy==2.3.2
+
+# Machine Learning
+scikit-learn==1.7.1
+joblib==1.5.1
+
+# Configuration
+PyYAML==6.0.2
+
+# Testing
+pytest==8.4.1
+
+# Data Visualisation
+matplotlib==3.10.5
