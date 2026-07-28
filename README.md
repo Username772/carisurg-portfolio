@@ -1,18 +1,4 @@
-# CariSurg Healthcare AI Portfolio
-
-This repository contains Week 0 and Week 1 work for the CariSurg Healthcare AI Programme, focusing on clinical triage analysis and documentation.
-
-## Project Structure
-
-- notebooks/ → Week 0 Jupyter notebook (clinical triage analysis)
-- docs/ → Week 1 memo and supporting documentation
-- data/ → Placeholder for Week 0 dataset (not stored in repo for governance reasons)
-- Project setup files added: README.md, LICENSE (MIT), .gitignore, and requirements.txt
-- Feature branch workflow used with pull request successfully merged into main
-## Purpose
-
-This project demonstrates reproducible clinical data analysis and structured research documentation.
-# AI-Assisted Emergency Department Triage
+# AI-Assisted Emergency Department Triage (Portfolio)
 
 ## Overview
 
@@ -28,25 +14,31 @@ The project follows a reproducible machine learning workflow, including data pre
 AI-Assisted-ED-Triage/
 │
 ├── config.yaml
+├── HANDOVER.md
 ├── requirements.txt
 ├── README.md
 ├── LICENSE (MIT)
 ├── .gitignore
 │
 ├── data/
-│   └── triage_cleaned_v1.csv
+│   └── triage_cleaned_v1.csv → Placeholder for Week 0 dataset (not stored in repo for governance reasons)
 │
 ├── docs/
-│   ├── HANDOVER.md
+|   ├── Week_1/*.pdf
+|   ├── Week_5/*.md and *.pdf
+|   ├── Week_6/*.md
+|   ├── Week_7/*.md
 │   └── model-selection.md
 │
 ├── models/
 │   └── logistic_regression.joblib
 │
 ├── notebooks/
-│   ├── Week5_*.ipynb
-│   ├── Week6_*.ipynb
-│   └── Week7_*.ipynb
+│   |── Week_0/*.ipynb
+|   ├── Week_5/*.ipynb
+|   |       ├── missingness_matrix.png
+│   ├── Week_6/*.ipynb
+│   └── Week_7/*.ipynb
 │
 ├── scripts/
 │   └── train.py
