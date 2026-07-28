@@ -144,8 +144,5 @@ Additional project documentation is located in the `docs/` directory:
 
 ---
 
-## Author
-
-CariSurg Healthcare AI Programme
-
+## Latest Module 
 Week 8 – Reproducibility & Modular Project Design
