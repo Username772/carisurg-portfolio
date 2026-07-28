@@ -1,0 +1,45 @@
+# ==========================================================
+# AI-Assisted Emergency Department Triage
+# Week 8 Final Model Configuration
+# ==========================================================
+
+project:
+  name: AI-Assisted ED Triage
+  phase: Phase 3
+  version: 1.0
+
+seed: 42
+
+paths:
+  data: data/triage_cleaned_v1.csv
+  model_output: models/logistic_regression.joblib
+
+training:
+  test_size: 0.20
+  target: esi
+  stratify: true
+
+model:
+  name: LogisticRegression
+
+hyperparameters:
+  max_iter: 1000
+  random_state: 42
+
+evaluation:
+  primary_metric: macro_f1
+  secondary_metrics:
+    - accuracy
+    - precision
+    - recall
+
+notes:
+  selected_model: Logistic Regression
+  reason: >
+    Logistic Regression was selected as the final Phase 3 model following
+    the Week 7 evaluation. Although the Small Multi-Layer Perceptron (MLP)
+    achieved a slightly higher Macro-F1 score (0.498), the improvement over
+    Logistic Regression (0.492) was only 0.006 and did not justify the
+    additional model complexity or reduced interpretability. Logistic
+    Regression provides strong predictive performance while remaining
+    transparent, reproducible, and suitable for clinical decision support.
