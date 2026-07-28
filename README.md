@@ -30,7 +30,7 @@ AI-Assisted-ED-Triage/
 ├── config.yaml
 ├── requirements.txt
 ├── README.md
-├── LICENSE
+├── LICENSE (MIT)
 ├── .gitignore
 │
 ├── data/
