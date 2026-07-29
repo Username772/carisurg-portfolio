@@ -30,8 +30,6 @@ AI-Assisted-ED-Triage/
 |   ├── Week_7/*.md
 │   └── model-selection.md
 │
-├── models/
-│   └── logistic_regression.joblib
 │
 ├── notebooks/
 │   |── Week_0/*.ipynb
