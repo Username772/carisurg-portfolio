@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the Week 5–8 project completed as part of the **CariSurg Healthcare AI Programme**. The objective is to investigate whether machine learning can assist Emergency Department (ED) clinicians by predicting Emergency Severity Index (ESI) levels using routinely collected triage information.
+This repository contains the Week 0–8 project completed as part of the **CariSurg Healthcare AI Programme**. The objective is to investigate whether machine learning can assist Emergency Department (ED) clinicians by predicting Emergency Severity Index (ESI) levels using routinely collected triage information.
 
 The project follows a reproducible machine learning workflow, including data preparation, feature engineering, model development, model evaluation, and project refactoring into a modular Python package.
 
