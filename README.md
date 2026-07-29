@@ -13,7 +13,7 @@ The project follows a reproducible machine learning workflow, including data pre
 ```text
 AI-Assisted-ED-Triage/
 │
-├── config.yaml
+├── config.yaml → records the model choice and hyperparameters.
 ├── HANDOVER.md
 ├── requirements.txt
 ├── README.md
@@ -42,7 +42,7 @@ AI-Assisted-ED-Triage/
 │   └── train.py
 │
 ├── src/
-│   ├── data.py               #Loads and splits the dataset
+│   ├── data.py               # Loads and splits the dataset
 │   ├── features.py           # Feature engineering and preprocessing 
 │   ├── model.py              # Model training and evaluation    
 │   └── utils.py              # Shared utility functions 
