@@ -28,7 +28,7 @@ AI-Assisted-ED-Triage/
 |   ├── Week_5/*.md and *.pdf
 |   ├── Week_6/*.md
 |   ├── Week_7/*.md
-│   └── model-selection.md
+│   └── Week_8/model-selection.md
 │
 │
 ├── notebooks/
