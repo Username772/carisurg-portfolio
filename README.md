@@ -44,10 +44,10 @@ AI-Assisted-ED-Triage/
 │   └── train.py
 │
 ├── src/
-│   ├── data.py
-│   ├── features.py
-│   ├── model.py
-│   └── utils.py
+│   ├── data.py               #Loads and splits the dataset
+│   ├── features.py           # Feature engineering and preprocessing 
+│   ├── model.py              # Model training and evaluation    
+│   └── utils.py              # Shared utility functions 
 │
 └── tests/
     ├── test_data.py
