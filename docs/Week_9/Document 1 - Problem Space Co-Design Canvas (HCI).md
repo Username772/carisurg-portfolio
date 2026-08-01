@@ -5,37 +5,41 @@ Implementation Setting Emergency Department (ED) Triage Desk
 
 ## Problem
 Emergency Department nurses at Mercer General Hospital must rapidly assess incoming patients to determine their Emergency Severity Index (ESI) level. During periods of high patient volume, time pressure, interruptions, and staff fatigue can make consistent triage more challenging. The current process relies heavily on manual assessment, increasing the risk of delays and variability in prioritisation.
-The proposed Human–Computer Interaction (HCI) solution integrates the previously developed Logistic Regression model into a nurse-facing dashboard that provides an evidence-based ESI recommendation. The system is designed to support clinical decision-making while ensuring that the nurse remains responsible for the final triage decision.
+
+The proposed Human–Computer Interaction (HCI) solution integrates the previously developed **Logistic Regression** model into a nurse-facing dashboard that provides an evidence-based ESI recommendation. The system is designed to support clinical decision-making while ensuring that the nurse remains responsible for the final triage decision.
 
 ## Primary User
-Emergency Department Triage Nurse
+* Emergency Department Triage Nurse
 
 ## Secondary Users
-Emergency Physicians
-Charge Nurse
-Clinical IT Staff
-Hospital Quality Improvement Team
+* Emergency Physicians
+* Charge Nurse
+* Clinical IT Staff
+* Hospital Quality Improvement Team
 
 ## System Input
 The system receives information from three sources.
-Manual Entry
+**Manual Entry**
+
 The triage nurse enters:
-Chief complaint
-Initial observations
-Missing clinical information
-Electronic Health Record (EHR)
+* Chief complaint
+* Initial observations
+* Missing clinical information
+
+**Electronic Health Record (EHR)**
 The system retrieves available patient information including:
-Previous visits
-Demographic information (where appropriate)
-Existing clinical record
-Medical Devices
+* Previous visits
+* Demographic information (where appropriate)
+* Existing clinical record
+  
+**Medical Devices**
 Vital signs are automatically received from monitoring equipment including:
-Heart Rate
-Respiratory Rate
-Blood Pressure
-Oxygen Saturation
-Temperature
-Blood Glucose
+* Heart Rate
+* Respiratory Rate
+* Blood Pressure
+* Oxygen Saturation
+* Temperature
+* Blood Glucose
 
 ## AI Processing
 The deployed Logistic Regression model analyses the collected triage information and predicts the patient's Emergency Severity Index (ESI) level.
@@ -43,42 +47,35 @@ The deployed Logistic Regression model analyses the collected triage information
 
 ## System Output
 The dashboard displays:
-Predicted ESI Level (1–5)
-Colour-coded urgency indicator
-Prediction confidence
-Brief explanation of the prediction
-Recommendation status
+* Predicted ESI Level (1–5)
+* Colour-coded urgency indicator
+* Prediction confidence
+* Brief explanation of the prediction
+* Recommendation status
 
 ## Human Action
 The nurse:
-Reviews the patient's clinical condition.
-Reviews the AI recommendation.
-Accepts or overrides the recommendation.
-Records the final triage decision.
-Continues normal clinical workflow.
+1. Reviews the patient's clinical condition.
+2. Reviews the AI recommendation.
+3. Accepts or overrides the recommendation.
+4. Records the final triage decision.
+5. Continues normal clinical workflow.
+
 Clinical judgement always overrides the AI recommendation.
 
 ## Benefits
-Improved consistency of triage decisions.
-Faster patient prioritisation.
-Decision support during busy periods.
-Reduced cognitive workload.
-Transparent AI recommendations.
+* Improved consistency of triage decisions.
+* Faster patient prioritisation.
+* Decision support during busy periods.
+* Reduced cognitive workload.
+* Transparent AI recommendations.
 
-HCI-Specific Safety Considerations
-Safety Concern
-Why it Matters
-Mitigation
-Alarm fatigue
-Too many alerts may cause clinicians to ignore important notifications.
-Display alerts only for clinically significant recommendations and prioritise high-acuity cases.
-Screen legibility
-Poor visibility under bright lighting or fatigue may increase the risk of errors.
-Use high-contrast colours, large fonts, and clear icons that remain readable throughout long shifts.
-AI over-reliance
-Nurses may trust the recommendation without performing an independent assessment.
-Require the nurse to review the recommendation and provide an override option, reinforcing that the AI supports rather than replaces clinical judgement.
-
+## HCI-Specific Safety Considerations
+| Safety Concern | Why it Matters | Mitigation |
+|---|---|---|
+| Alarm fatigue | Too many alerts may cause clinicians to ignore important notifications. | Display alerts only for clinically significant recommendations and prioritise high-acuity cases. |
+| Screen legibility | Poor visibility under bright lighting or fatigue may increase the risk of errors. | Use high-contrast colours, large fonts, and clear icons that remain readable throughout long shifts. |
+| AI over-reliance | Nurses may trust the recommendation without performing an independent assessment. | Require the nurse to review the recommendation and provide an override option, reinforcing that the AI supports rather than replaces clinical judgement. |
 
 # Problem Space Co-Design Canvas (HRI)
 Implementation Setting
