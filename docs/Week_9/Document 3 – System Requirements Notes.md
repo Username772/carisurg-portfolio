@@ -94,6 +94,7 @@ The system shall:
 
 Allow authorised clinical staff to log in securely.
 
+
 **FR2**
 
 Accept patient demographic and clinical information through manual entry or integrated systems.
