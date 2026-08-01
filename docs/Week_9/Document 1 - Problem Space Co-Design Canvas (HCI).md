@@ -81,6 +81,11 @@ Clinical judgement always overrides the AI recommendation.
 | Screen legibility | Poor visibility under bright lighting or fatigue may increase the risk of errors. | Use high-contrast colours, large fonts, and clear icons that remain readable throughout long shifts. |
 | AI over-reliance | Nurses may trust the recommendation without performing an independent assessment. | Require the nurse to review the recommendation and provide an override option, reinforcing that the AI supports rather than replaces clinical judgement. |
 
+
+
+
+
+
 # Problem Space Co-Design Canvas (HRI)
 **Implementation Setting**
 
