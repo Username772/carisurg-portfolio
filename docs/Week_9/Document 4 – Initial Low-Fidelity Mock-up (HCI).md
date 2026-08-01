@@ -57,7 +57,46 @@ Screen Layout
 │                                          │                                                                                         │
 └──────────────────────────────────────────┴───────────────────────────────────────────────────────────────────────────────────────┘
 
+## AI-Assisted Emergency Department Triage Dashboard Wireframe
 
+```text
++--------------------------------------------------------------------------------+
+| MERCER GENERAL HOSPITAL                         User: Nurse Williams | 03:12 AM |
+|                                                        Logout                  |
++--------------------------------------------------------------------------------+
+| PATIENT QUEUE                         | PATIENT DETAILS                       |
+|---------------------------------------|---------------------------------------|
+| 🔴 Patient 001  Waiting               | Patient ID: 00124567                 |
+| 🟠 Patient 002  In Triage             | Name: ********                       |
+| 🟡 Patient 003  Waiting               | Age: 62                              |
+| 🟢 Patient 004  Observation           | Sex: Female                          |
+| 🔴 Patient 005  Waiting               | Chief Complaint: Chest Pain          |
+|                                       | Arrival Time: 02:58 AM              |
++---------------------------------------+---------------------------------------+
+| VITAL SIGNS                           | AI TRIAGE RECOMMENDATION            |
+|---------------------------------------|---------------------------------------|
+| Heart Rate:          122 bpm          | Predicted ESI Level                 |
+| Blood Pressure:      88 / 56          |                                       |
+| Respiratory Rate:    28 bpm           |             🔴 LEVEL 2               |
+| Oxygen Saturation:   89 %             |                                       |
+| Temperature:         101.2°F          | Confidence: 92%                     |
+| Blood Glucose:       184 mg/dL        |                                       |
+|                                       | Clinical Factors:                   |
+| [ Retrieve EHR ]                      | • High heart rate                   |
+|                                       | • Low oxygen saturation             |
+|                                       | • Elevated temperature              |
++---------------------------------------+---------------------------------------+
+| CLINICAL NOTES                        | NURSE DECISION                      |
+|---------------------------------------|---------------------------------------|
+| ___________________________________   | ○ Accept AI Recommendation          |
+| ___________________________________   | ○ Override Recommendation           |
+| ___________________________________   |                                       |
+| ___________________________________   | Override Reason (optional):         |
+|                                       | _________________________________   |
+|                                       |                                       |
+|                                       | [ View Explanation ]                 |
+|                                       | [ Save Final Decision ]              |
++---------------------------------------+---------------------------------------+
 
 
 ## Interface Features
