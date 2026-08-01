@@ -129,6 +129,7 @@ Therefore:
 
 ## Lighting Conditions
 Variable lighting and screen glare may reduce visibility.
+
 The interface therefore uses:
 * high-contrast colours,
 * large typography,
