@@ -35,12 +35,12 @@ Oxygen Saturation
 Body Temperature
 Blood Glucose
 
-## Clinical Assessment
+#### Clinical Assessment
 Chief complaint
 Initial nurse observations
 Additional assessment notes (optional)
 
-## Data Sources
+#### Data Sources
 The system receives information through:
 Source
 Purpose
@@ -52,11 +52,11 @@ Electronic Health Record (EHR)
 Previous patient information
 
 
-4. AI Processing
+### 4. AI Processing
 The deployed Logistic Regression model processes the available clinical information and predicts an Emergency Severity Index (ESI) level.
 The prediction is generated using the trained model selected during Weeks 6–8 based on its balance of predictive performance, transparency, interpretability, and computational efficiency.
 
-5. System Outputs
+### 5. System Outputs
 The dashboard presents:
 Predicted ESI Level (1–5)
 Confidence score
@@ -64,7 +64,7 @@ Colour-coded urgency indicator
 Brief explanation of the recommendation
 Recommendation status
 
-6. Human Workflow
+### 6. Human Workflow
 The proposed workflow is:
 Patient arrives at the ED triage desk.
 Nurse records initial clinical assessment.
@@ -79,7 +79,7 @@ overrides it based on clinical judgement.
 The final ESI level is recorded in the Electronic Health Record.
 The patient proceeds through the normal clinical pathway.
 
-7. Functional Requirements
+### 7. Functional Requirements
 The system shall:
 FR1
 Allow authorised clinical staff to log in securely.
@@ -111,7 +111,7 @@ Maintain an audit log of recommendations and user actions.
 FR10
 Continue supporting manual triage if the AI system becomes unavailable.
 
-8. Non-Functional Requirements
+### 8. Non-Functional Requirements
 Performance
 The system should display recommendations within 2 seconds of receiving complete patient information.
 
@@ -135,7 +135,7 @@ comply with hospital data governance requirements.
 Maintainability
 The system should allow future model updates without requiring major interface redesign.
 
-9. Integration Requirements
+### 9. Integration Requirements
 The proposed system should integrate with:
 Electronic Health Record (EHR)
 Hospital authentication service
@@ -144,7 +144,7 @@ Audit logging system
 Existing Emergency Department workflow
 The AI recommendation should appear within the existing triage process to minimise disruption to established clinical practice.
 
-10. Failure Handling
+### 10. Failure Handling
 If one or more system components fail:
 Failure
 System Response
@@ -158,7 +158,7 @@ Power interruption
 Restore the previous session where possible after restart.
 
 
-11. Assumptions
+### 11. Assumptions
 The proposed implementation assumes:
 Nurses have received appropriate system training.
 Clinical staff retain responsibility for all patient care decisions.
