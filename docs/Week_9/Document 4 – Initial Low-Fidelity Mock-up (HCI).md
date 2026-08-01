@@ -1,8 +1,8 @@
 # Document 4 – Initial Low-Fidelity Mock-up (HCI)
-#Project: AI-Assisted Emergency Department Triage Dashboard
-Deployment: Mercer General Hospital – Emergency Department
-Primary User: ED Triage Nurse
-AI Model: Logistic Regression (Clinical Decision Support)
+**Project:** AI-Assisted Emergency Department Triage Dashboard
+**Deployment:** Mercer General Hospital – Emergency Department
+**Primary User:** ED Triage Nurse
+**AI Model:** Logistic Regression (Clinical Decision Support)
 
 ## Mock-up Description
 The dashboard is designed to support nurses during the triage process by presenting patient information, AI-generated recommendations, and the ability to accept or override the recommendation. The design prioritises simplicity, readability, and rapid decision-making during busy Emergency Department operations.
