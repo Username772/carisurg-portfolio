@@ -81,22 +81,22 @@ The patient proceeds through the normal clinical pathway.
 
 ### 7. Functional Requirements
 The system shall:
-FR1
+* FR1
 Allow authorised clinical staff to log in securely.
 
-FR2
+* FR2
 Accept patient demographic and clinical information through manual entry or integrated systems.
 
-FR3
+* FR3
 Retrieve available patient information from the Electronic Health Record (EHR).
 
-FR4
+* FR4
 Receive vital signs from compatible monitoring devices where available.
 
-FR5
+* FR5
 Generate an Emergency Severity Index (ESI) recommendation using the deployed Logistic Regression model.
 
-FR6
+* FR6
 Display the predicted ESI level together with a confidence score.
 
 FR7
