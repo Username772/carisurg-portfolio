@@ -122,6 +122,7 @@ The design considers several operational challenges identified in the tutorial m
 
 
 The Emergency Department frequently exceeds normal conversational noise levels.
+
 Therefore:
 * visual alerts are prioritised,
 * audio notifications are limited to critical events.
