@@ -1,7 +1,8 @@
 # Document 1 – Problem Space Co-Design Canvas
 
 ## Problem Space Co-Design Canvas (HCI)
-Implementation Setting Emergency Department (ED) Triage Desk
+**Implementation Setting**
+Emergency Department (ED) Triage Desk
 
 ## Problem
 Emergency Department nurses at Mercer General Hospital must rapidly assess incoming patients to determine their Emergency Severity Index (ESI) level. During periods of high patient volume, time pressure, interruptions, and staff fatigue can make consistent triage more challenging. The current process relies heavily on manual assessment, increasing the risk of delays and variability in prioritisation.
@@ -78,36 +79,40 @@ Clinical judgement always overrides the AI recommendation.
 | AI over-reliance | Nurses may trust the recommendation without performing an independent assessment. | Require the nurse to review the recommendation and provide an override option, reinforcing that the AI supports rather than replaces clinical judgement. |
 
 # Problem Space Co-Design Canvas (HRI)
-Implementation Setting
+**Implementation Setting**
+
 Observation Unit Robotic Assessment Kiosk
 
 ## Problem
 Patients admitted to the Observation Unit often require repeated monitoring while nursing staff manage multiple patients simultaneously. Routine physiological assessments consume valuable clinical time, particularly during busy periods.
+
 A Human–Robot Interaction (HRI) solution could support nursing staff by collecting routine observations, interacting with patients through a touchscreen and voice interface, and transmitting information to the AI triage system. The robot would not make clinical decisions but would assist staff by automating data collection and highlighting patients who may require further assessment.
 
 ## Primary Users
-Observation Unit Nurse
+* Observation Unit Nurse
 
 ## Secondary Users
-Patients
-Emergency Physicians
-Clinical Support Staff
-Biomedical Engineering Team
+* Patients
+* Emergency Physicians
+* Clinical Support Staff
+* Biomedical Engineering Team
 
 ## System Input
-Patient Interaction
+**Patient Interaction**
 Patients provide:
-Identification
-Symptoms
-Responses to assessment questions
-Integrated Sensors
+* Identification
+* Symptoms
+* Responses to assessment questions
+
+## Integrated Sensors
 The robotic station measures:
-Heart Rate
-Blood Pressure
-Oxygen Saturation
-Temperature
-Respiratory Rate
-Electronic Health Record
+* Heart Rate
+* Blood Pressure
+* Oxygen Saturation
+* Temperature
+* Respiratory Rate
+
+## Electronic Health Record
 The robot retrieves relevant patient information from the hospital information system where authorised.
 
 ## AI Processing
@@ -115,60 +120,41 @@ The Logistic Regression model analyses the collected information and predicts an
 
 ## System Output
 The robotic kiosk provides:
-Visual status indicator
-Voice instructions
-Predicted ESI recommendation
-Alert to supervising nurse
-Updated patient record
+* Visual status indicator
+* Voice instructions
+* Predicted ESI recommendation
+* Alert to supervising nurse
+* Updated patient record
 
 ## Human Action
 The supervising nurse:
-Reviews the robot's assessment.
-Confirms or overrides the recommendation.
-Performs additional clinical assessment if required.
-Initiates appropriate treatment or escalation.
+1. Reviews the robot's assessment.
+2. Confirms or overrides the recommendation.
+3. Performs additional clinical assessment if required.
+4. Initiates appropriate treatment or escalation.
+
 The robot never replaces clinical assessment.
 
 ## Benefits
-Continuous monitoring support.
-Reduced workload for routine assessments.
-Earlier identification of deteriorating patients.
-Improved workflow within the Observation Unit.
+* Continuous monitoring support.
+* Reduced workload for routine assessments.
+* Earlier identification of deteriorating patients.
+* Improved workflow within the Observation Unit.
 
 ## HRI-Specific Safety Considerations
-Safety Concern
-Why it Matters
-Mitigation
-Physical proximity
-The robot operates near patients and staff, increasing the risk of accidental contact.
-Equip the robot with obstacle detection, controlled movement, and emergency stop functions.
-Voice recognition in noisy environments
-Background noise may affect speech recognition and patient communication.
-Provide both touchscreen and voice input with manual confirmation before submission.
-Sensor failure
-Inaccurate or unavailable sensor readings may lead to incorrect recommendations.
-Detect sensor faults automatically, notify staff immediately, and allow manual data entry as a fallback.
+| Safety Concern | Why it Matters | Mitigation |
+|---|---|---|
+| Physical proximity | The robot operates near patients and staff, increasing the risk of accidental contact. | Equip the robot with obstacle detection, controlled movement, and emergency stop functions. |
+| Voice recognition in noisy environments | Background noise may affect speech recognition and patient communication. | Provide both touchscreen and voice input with manual confirmation before submission. |
+| Sensor failure | Inaccurate or unavailable sensor readings may lead to incorrect recommendations. | Detect sensor faults automatically, notify staff immediately, and allow manual data entry as a fallback. |
 
 
 ## Comparison of HCI and HRI
-Aspect
-HCI (ED Triage Desk)
-HRI (Observation Unit)
-Primary User
-ED Triage Nurse
-Observation Unit Nurse and Patient
-Interaction
-Screen-based dashboard
-Physical robotic kiosk with touchscreen and sensors
-Input Method
-Manual entry, EHR, medical devices
-Sensors, touchscreen, voice input, EHR
-Output
-ESI recommendation displayed on screen
-ESI recommendation with visual and voice feedback
-Human Role
-Reviews and overrides recommendation
-Supervises robot and confirms clinical decisions
-Main Goal
-Support rapid triage decisions
-Support routine monitoring and patient assessment
+| Aspect | HCI (ED Triage Desk) | HRI (Observation Unit) |
+|---|---|---|
+| Primary User | ED Triage Nurse | Observation Unit Nurse and Patient |
+| Interaction | Screen-based dashboard | Physical robotic kiosk with touchscreen and sensors |
+| Input Method | Manual entry, EHR, medical devices | Sensors, touchscreen, voice input, EHR |
+| Output | ESI recommendation displayed on screen | ESI recommendation with visual and voice feedback |
+| Human Role | Reviews and overrides recommendation | Supervises robot and confirms clinical decisions |
+| Main Goal | Support rapid triage decisions | Support routine monitoring and patient assessment |
