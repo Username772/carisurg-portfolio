@@ -122,12 +122,15 @@ Continue supporting manual triage if the AI system becomes unavailable.
 
 ### 8. Non-Functional Requirements
 **Performance**
+
 The system should display recommendations within **2 seconds** of receiving complete patient information.
 
 **Reliability**
+
 The system should remain available during normal Emergency Department operations and recover safely following temporary interruptions.
 
 **Usability**
+
 The interface should:
 * minimise unnecessary user interactions,
 * remain readable under varied lighting conditions,
@@ -135,6 +138,7 @@ The interface should:
 * present information consistently.
 
 **Security**
+
 The system must:
 * require authenticated access,
 * encrypt patient information,
@@ -142,6 +146,7 @@ The system must:
 * comply with hospital data governance requirements.
 
 **Maintainability**
+
 The system should allow future model updates without requiring major interface redesign.
 
 ### 9. Integration Requirements
