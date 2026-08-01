@@ -11,6 +11,7 @@
 The dashboard is designed to support nurses during the triage process by presenting patient information, AI-generated recommendations, and the ability to accept or override the recommendation. The design prioritises simplicity, readability, and rapid decision-making during busy Emergency Department operations.
 
 ## AI-Assisted Emergency Department Triage Dashboard Wireframe
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/063c0679-3cd9-491e-8eaa-282513f153e9" />
 
 ```text
 +--------------------------------------------------------------------------------+
