@@ -85,7 +85,7 @@ Provide all clinically relevant information in a single location.
 Support transparent and explainable AI-assisted decision-making.
 
 #### Nurse Action Panel
-#### Provides options to:
+Provides options to:
 * Accept the recommendation.
 * Override the recommendation.
 * View additional explanation.
