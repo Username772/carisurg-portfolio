@@ -90,41 +90,25 @@ The proposed workflow is:
 ### 7. Functional Requirements
 The system shall:
 
-**FR1**
+* **FR1** - Allow authorised clinical staff to log in securely.
 
-* Allow authorised clinical staff to log in securely.
+* **FR2** - Accept patient demographic and clinical information through manual entry or integrated systems.
 
+* **FR3** - Retrieve available patient information from the Electronic Health Record (EHR).
 
-**FR2**
+* **FR4** - Receive vital signs from compatible monitoring devices where available.
 
-* Accept patient demographic and clinical information through manual entry or integrated systems.
+* **FR5** - Generate an Emergency Severity Index (ESI) recommendation using the deployed Logistic Regression model.
 
-**FR3**
+* **FR6** - Display the predicted ESI level together with a confidence score.
 
-* Retrieve available patient information from the Electronic Health Record (EHR).
+* **FR7** - Provide a nurse override option for every recommendation.
 
-**FR4**
+* **FR8** - Record the final clinician decision together with any override.
 
-* Receive vital signs from compatible monitoring devices where available.
+* **FR9** - Maintain an audit log of recommendations and user actions.
 
-**FR5**
-
-* Generate an Emergency Severity Index (ESI) recommendation using the deployed Logistic Regression model.
-
-* **FR6**
-Display the predicted ESI level together with a confidence score.
-
-* **FR7**
-Provide a nurse override option for every recommendation.
-
-* **FR8**
-Record the final clinician decision together with any override.
-
-* **FR9**
-Maintain an audit log of recommendations and user actions.
-
-* **FR10**
-Continue supporting manual triage if the AI system becomes unavailable.
+* **FR10** - Continue supporting manual triage if the AI system becomes unavailable.
 
 ### 8. Non-Functional Requirements
 **Performance**
