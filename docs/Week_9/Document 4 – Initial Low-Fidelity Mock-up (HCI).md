@@ -26,17 +26,17 @@ Displays patients waiting for triage with priority indicators.
 * Support patient flow management.
 
 ## Patient Information Panel
-### Displays:
+#### Displays:
 * Patient identifier
 * Chief complaint
 * Vital signs
 * Information retrieved from the Electronic Health Record (EHR)
 
-### Purpose:
+#### Purpose:
 Provide all clinically relevant information in a single location.
 
 ### AI Recommendation Panel
-### Displays:
+#### Displays:
 * Predicted ESI level
 * Confidence score
 * Colour-coded urgency
