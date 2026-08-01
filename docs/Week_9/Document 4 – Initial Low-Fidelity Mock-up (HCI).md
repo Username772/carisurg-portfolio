@@ -17,7 +17,7 @@ The dashboard is designed to support nurses during the triage process by present
 
 
 ## Interface Features
-### Patient Queue
+#### Patient Queue
 
 Displays patients waiting for triage with priority indicators.
 
