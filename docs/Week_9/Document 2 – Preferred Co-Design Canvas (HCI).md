@@ -138,6 +138,7 @@ The interface therefore uses:
 
 ## Staff Fatigue
 Nurses commonly work extended shifts.
+
 To reduce cognitive workload, the interface should:
 * minimise unnecessary clicks,
 * present only essential information,
@@ -146,6 +147,7 @@ To reduce cognitive workload, the interface should:
 
 ## Power Instability
 As discussed during the Week 9 tutorial, Caribbean healthcare facilities may experience temporary power interruptions or generator operation.
+
 The system should therefore:
 * automatically save entered information,
 * recover previous sessions after restart,
