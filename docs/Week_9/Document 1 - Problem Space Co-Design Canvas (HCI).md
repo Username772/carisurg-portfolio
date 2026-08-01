@@ -1,6 +1,6 @@
 # Document 1 – Problem Space Co-Design Canvas
 
-Problem Space Co-Design Canvas (HCI)
+## Problem Space Co-Design Canvas (HCI)
 Implementation Setting
 Emergency Department (ED) Triage Desk
 
@@ -176,7 +176,3 @@ Supervises robot and confirms clinical decisions
 Main Goal
 Support rapid triage decisions
 Support routine monitoring and patient assessment
-
-
-
-Next: Document 2 – Preferred Co-Design Canvas (HCI: Problem, Ethics, and Environment), completed in the style expected by the Mercer Integration Review Board and aligned with the Week 9 canvas template.
