@@ -1,9 +1,13 @@
 # Document 3 – System Requirements Notes
-Project: AI-Assisted Emergency Department Triage System
-Organisation: Mercer General Hospital
-Preferred Implementation: Human–Computer Interaction (HCI)
-Selected AI Model: Logistic Regression
-Purpose: Interim System Requirements Notes
+**Project:** AI-Assisted Emergency Department Triage System
+
+**Organisation:** Mercer General Hospital
+
+**Preferred Implementation:** Human–Computer Interaction (HCI)
+
+**Selected AI Model:** Logistic Regression
+
+**Purpose:** Interim System Requirements Notes
 
 ### 1. System Vision
 The proposed system is an Artificial Intelligence (AI)-assisted clinical decision support application designed to assist Emergency Department (ED) triage nurses in assigning Emergency Severity Index (ESI) levels.
