@@ -92,7 +92,7 @@ The system shall:
 
 **FR1**
 
-Allow authorised clinical staff to log in securely.
+* Allow authorised clinical staff to log in securely.
 
 
 **FR2**
