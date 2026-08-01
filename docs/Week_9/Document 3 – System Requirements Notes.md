@@ -97,19 +97,19 @@ The system shall:
 
 **FR2**
 
-Accept patient demographic and clinical information through manual entry or integrated systems.
+* Accept patient demographic and clinical information through manual entry or integrated systems.
 
 **FR3**
 
-Retrieve available patient information from the Electronic Health Record (EHR).
+* Retrieve available patient information from the Electronic Health Record (EHR).
 
 **FR4**
 
-Receive vital signs from compatible monitoring devices where available.
+* Receive vital signs from compatible monitoring devices where available.
 
 **FR5**
 
-Generate an Emergency Severity Index (ESI) recommendation using the deployed Logistic Regression model.
+* Generate an Emergency Severity Index (ESI) recommendation using the deployed Logistic Regression model.
 
 * **FR6**
 Display the predicted ESI level together with a confidence score.
