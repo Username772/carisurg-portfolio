@@ -8,6 +8,7 @@
 
 ## Problem
 **Current Situation**
+
 Emergency Department (ED) triage nurses at Mercer General Hospital are responsible for rapidly assessing patients and assigning an Emergency Severity Index (ESI) level based on their clinical presentation. During periods of high patient volume, frequent interruptions, and extended shifts, maintaining consistent triage decisions becomes increasingly challenging.
 
 Although experienced clinicians use established triage protocols, variations in workload and fatigue may contribute to inconsistent prioritisation and longer waiting times for some patients.
