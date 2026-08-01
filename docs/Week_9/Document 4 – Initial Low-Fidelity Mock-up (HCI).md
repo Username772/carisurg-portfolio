@@ -58,37 +58,39 @@ Screen Layout
 
 
 ## Interface Features
-Patient Queue
+### Patient Queue
+
 Displays patients waiting for triage with priority indicators.
-Purpose:
-Improve situational awareness.
-Support patient flow management.
+### Purpose:
+* Improve situational awareness.
+* Support patient flow management.
 
 ## Patient Information Panel
 ### Displays:
-Patient identifier
-Chief complaint
-Vital signs
-Information retrieved from the Electronic Health Record (EHR)
+* Patient identifier
+* Chief complaint
+* Vital signs
+* Information retrieved from the Electronic Health Record (EHR)
 
 ### Purpose:
 Provide all clinically relevant information in a single location.
 
 ### AI Recommendation Panel
 #### Displays:
-Predicted ESI level
-Confidence score
-Colour-coded urgency
-Brief explanation for the recommendation
+* Predicted ESI level
+* Confidence score
+* Colour-coded urgency
+* Brief explanation for the recommendation
 #### Purpose:
 Support transparent and explainable AI-assisted decision-making.
 
 #### Nurse Action Panel
 #### Provides options to:
-Accept the recommendation.
-Override the recommendation.
-View additional explanation.
-Save the final decision.
+* Accept the recommendation.
+* Override the recommendation.
+* View additional explanation.
+* Save the final decision.
+  
 #### Purpose:
 Ensure the nurse retains full clinical authority.
 
@@ -108,7 +110,7 @@ The design reflects the clinical environment described in the Week 9 tutorial by
 * Limited workspace: fits a standard triage workstation without requiring additional hardware.
 * Power interruptions: supports manual workflow continuation if the system becomes unavailable.
 
-## Design Rationale
+### Design Rationale
 The interface was designed around the Week 8 decision to deploy the Logistic Regression model because it provides transparent and reproducible clinical decision support while allowing nurses to retain responsibility for all patient care decisions.
 
 The interface intentionally focuses on presenting the AI recommendation clearly rather than automating clinical decisions. This supports clinician trust, reduces the risk of over-reliance on AI, and aligns with the project's objective of improving triage consistency without replacing professional judgement.
