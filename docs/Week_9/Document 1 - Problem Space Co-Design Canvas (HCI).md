@@ -1,6 +1,7 @@
 # Document 1 – Problem Space Co-Design Canvas
 
-## Problem Space Co-Design Canvas (HCI)Implementation Setting Emergency Department (ED) Triage Desk
+## Problem Space Co-Design Canvas (HCI)
+Implementation Setting Emergency Department (ED) Triage Desk
 
 ## Problem
 Emergency Department nurses at Mercer General Hospital must rapidly assess incoming patients to determine their Emergency Severity Index (ESI) level. During periods of high patient volume, time pressure, interruptions, and staff fatigue can make consistent triage more challenging. The current process relies heavily on manual assessment, increasing the risk of delays and variability in prioritisation.
