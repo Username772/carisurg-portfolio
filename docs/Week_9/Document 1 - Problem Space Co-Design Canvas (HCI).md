@@ -29,12 +29,14 @@ The triage nurse enters:
 * Missing clinical information
 
 **Electronic Health Record (EHR)**
+
 The system retrieves available patient information including:
 * Previous visits
 * Demographic information (where appropriate)
 * Existing clinical record
   
 **Medical Devices**
+
 Vital signs are automatically received from monitoring equipment including:
 * Heart Rate
 * Respiratory Rate
