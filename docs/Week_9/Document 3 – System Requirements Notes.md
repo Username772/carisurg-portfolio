@@ -94,16 +94,20 @@ The system shall:
 
 Allow authorised clinical staff to log in securely.
 
-* **FR2**
+**FR2**
+
 Accept patient demographic and clinical information through manual entry or integrated systems.
 
-* **FR3**
+**FR3**
+
 Retrieve available patient information from the Electronic Health Record (EHR).
 
-* **FR4**
+**FR4**
+
 Receive vital signs from compatible monitoring devices where available.
 
-* **FR5**
+**FR5**
+
 Generate an Emergency Severity Index (ESI) recommendation using the deployed Logistic Regression model.
 
 * **FR6**
