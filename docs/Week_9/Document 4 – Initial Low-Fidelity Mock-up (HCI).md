@@ -36,7 +36,7 @@ Displays patients waiting for triage with priority indicators.
 Provide all clinically relevant information in a single location.
 
 ### AI Recommendation Panel
-#### Displays:
+### Displays:
 * Predicted ESI level
 * Confidence score
 * Colour-coded urgency
