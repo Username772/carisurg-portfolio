@@ -61,7 +61,8 @@ Screen Layout
 ### Patient Queue
 
 Displays patients waiting for triage with priority indicators.
-Purpose:
+
+#### Purpose:
 * Improve situational awareness.
 * Support patient flow management.
 
