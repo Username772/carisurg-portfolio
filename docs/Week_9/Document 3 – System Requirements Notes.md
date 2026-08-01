@@ -81,7 +81,7 @@ The patient proceeds through the normal clinical pathway.
 
 ### 7. Functional Requirements
 The system shall:
-* FR1
+*FR1
 Allow authorised clinical staff to log in securely.
 
 * FR2
