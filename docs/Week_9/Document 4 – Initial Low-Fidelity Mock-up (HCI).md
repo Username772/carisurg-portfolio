@@ -1,5 +1,5 @@
 # Document 4 – Initial Low-Fidelity Mock-up (HCI)
-Project: AI-Assisted Emergency Department Triage Dashboard
+#Project#: AI-Assisted Emergency Department Triage Dashboard
 Deployment: Mercer General Hospital – Emergency Department
 Primary User: ED Triage Nurse
 AI Model: Logistic Regression (Clinical Decision Support)
@@ -94,20 +94,21 @@ Ensure the nurse retains full clinical authority.
 
 ## Accessibility Features
 The dashboard incorporates several Human–Computer Interaction (HCI) principles:
-High-contrast colours to improve visibility under varying lighting conditions.
-Large, readable fonts to reduce visual strain during extended shifts.
-Simple navigation with clearly labelled buttons.
-Colour combined with text and symbols to avoid relying on colour alone.
-Consistent layout to minimise cognitive load.
+* High-contrast colours to improve visibility under varying lighting conditions.
+* Large, readable fonts to reduce visual strain during extended shifts.
+* Simple navigation with clearly labelled buttons.
+* Colour combined with text and symbols to avoid relying on colour alone.
+* Consistent layout to minimise cognitive load.
 
-Alignment with Week 9 Tutorial Guidance
+### Alignment with Week 9 Tutorial Guidance
 The design reflects the clinical environment described in the Week 9 tutorial by considering:
-High ambient noise: prioritises visual information over audio alerts.
-Variable lighting: uses high-contrast elements and large text.
-Shift fatigue: presents only essential information and minimises unnecessary interactions.
-Limited workspace: fits a standard triage workstation without requiring additional hardware.
-Power interruptions: supports manual workflow continuation if the system becomes unavailable.
+* High ambient noise: prioritises visual information over audio alerts.
+* Variable lighting: uses high-contrast elements and large text.
+* Shift fatigue: presents only essential information and minimises unnecessary interactions.
+* Limited workspace: fits a standard triage workstation without requiring additional hardware.
+* Power interruptions: supports manual workflow continuation if the system becomes unavailable.
 
-Design Rationale
+## Design Rationale
 The interface was designed around the Week 8 decision to deploy the Logistic Regression model because it provides transparent and reproducible clinical decision support while allowing nurses to retain responsibility for all patient care decisions.
+
 The interface intentionally focuses on presenting the AI recommendation clearly rather than automating clinical decisions. This supports clinician trust, reduces the risk of over-reliance on AI, and aligns with the project's objective of improving triage consistency without replacing professional judgement.
