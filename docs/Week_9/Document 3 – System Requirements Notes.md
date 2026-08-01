@@ -81,7 +81,8 @@ The patient proceeds through the normal clinical pathway.
 
 ### 7. Functional Requirements
 The system shall:
-*FR1
+
+* FR1
 Allow authorised clinical staff to log in securely.
 
 * FR2
@@ -99,16 +100,16 @@ Generate an Emergency Severity Index (ESI) recommendation using the deployed Log
 * FR6
 Display the predicted ESI level together with a confidence score.
 
-FR7
+* FR7
 Provide a nurse override option for every recommendation.
 
-FR8
+* FR8
 Record the final clinician decision together with any override.
 
-FR9
+* FR9
 Maintain an audit log of recommendations and user actions.
 
-FR10
+* FR10
 Continue supporting manual triage if the AI system becomes unavailable.
 
 ### 8. Non-Functional Requirements
