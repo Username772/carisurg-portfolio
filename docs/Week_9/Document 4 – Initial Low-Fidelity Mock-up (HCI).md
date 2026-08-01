@@ -97,7 +97,7 @@ Screen Layout
 |                                       | [ View Explanation ]                 |
 |                                       | [ Save Final Decision ]              |
 +---------------------------------------+---------------------------------------+
-
+```
 
 ## Interface Features
 ### Patient Queue
