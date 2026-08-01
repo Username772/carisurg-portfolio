@@ -117,7 +117,9 @@ The interface must remain usable despite these conditions.
 ## Environmental Constraints
 The design considers several operational challenges identified in the tutorial materials:
 
+
 **High Noise Levels**
+
 
 The Emergency Department frequently exceeds normal conversational noise levels.
 Therefore:
