@@ -46,14 +46,12 @@ Additional assessment notes (optional)
 
 #### Data Sources
 The system receives information through:
-Source
-Purpose
-Manual nurse entry
-Chief complaint and observations
-Medical devices
-Vital signs
-Electronic Health Record (EHR)
-Previous patient information
+
+| Source | Purpose |
+|--------|---------|
+| Manual nurse entry | Chief complaint and observations |
+| Medical devices | Vital signs |
+| Electronic Health Record (EHR) | Previous patient information |
 
 
 ### 4. AI Processing
