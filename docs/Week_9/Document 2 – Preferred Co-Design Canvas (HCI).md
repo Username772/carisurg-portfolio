@@ -115,6 +115,8 @@ The system has been designed to minimise clinical risk by:
 * supporting manual triage procedures if unavailable,
 * presenting recommendations clearly,
 * avoiding automated clinical actions.
+
+
 If the system becomes unavailable, staff continue using existing hospital triage procedures without interruption.
 
 ## Guidelines / Human-Centred Design Principles
