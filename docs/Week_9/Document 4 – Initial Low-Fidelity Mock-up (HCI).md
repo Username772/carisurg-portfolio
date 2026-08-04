@@ -75,3 +75,6 @@ The design reflects the clinical environment described in the Week 9 tutorial by
 The interface was designed around the Week 8 decision to deploy the Logistic Regression model because it provides transparent and reproducible clinical decision support while allowing nurses to retain responsibility for all patient care decisions.
 
 The interface intentionally focuses on presenting the AI recommendation clearly rather than automating clinical decisions. This supports clinician trust, reduces the risk of over-reliance on AI, and aligns with the project's objective of improving triage consistency without replacing professional judgement.
+
+## Human-Centred Design Principles
+The dashboard was designed using human-centred design principles by presenting only the information required during triage, reducing unnecessary cognitive load, supporting rapid decision-making, and ensuring clinicians remain in control of all final patient decisions. High-contrast visual elements, consistent navigation, and clear AI explanations improve usability while maintaining transparency and patient safety.
