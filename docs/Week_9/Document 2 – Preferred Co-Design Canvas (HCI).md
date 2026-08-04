@@ -43,6 +43,23 @@ The recommendation is presented alongside a confidence score and supporting info
 * Better utilisation of clinical resources.
 * Standardised decision support across staff.
 
+## MVP (Minimum Viable Product)
+
+The initial deployment focuses on the core functionality required to support Emergency Department triage while remaining simple, reliable, and practical for everyday clinical use.
+
+The MVP includes:
+
+Secure clinician login
+Patient information entry and retrieval from the Electronic Health Record (EHR)
+Automatic import of vital signs from compatible monitoring devices
+Logistic Regression model generating an Emergency Severity Index (ESI) recommendation
+Display of the predicted ESI level, confidence score, and brief AI explanation
+Nurse ability to accept or override the AI recommendation
+Automatic recording of the final triage decision and audit log
+
+Advanced capabilities such as predictive patient flow analytics, robotic integration, and advanced clinical decision support are outside the scope of the MVP and may be introduced in future versions of the system.
+
+
 ## Ethics
 The proposed system has been designed to support ethical, transparent, and safe use of Artificial Intelligence within a clinical environment.
 
@@ -99,6 +116,20 @@ The system has been designed to minimise clinical risk by:
 * presenting recommendations clearly,
 * avoiding automated clinical actions.
 If the system becomes unavailable, staff continue using existing hospital triage procedures without interruption.
+
+## Guidelines / Human-Centred Design Principles
+
+The dashboard was designed using human-centred design principles by presenting only the information required during triage, reducing unnecessary cognitive load, supporting rapid decision-making, and ensuring clinicians remain in control of all final patient decisions. High-contrast visual elements, consistent navigation, and clear AI explanations improve usability while maintaining transparency and patient safety.
+
+The interface follows these design guidelines:
+
+Consistency: Similar layouts, navigation, and controls are used throughout the interface to reduce learning time.
+Visibility: Critical patient information and AI recommendations are immediately visible without unnecessary navigation.
+Feedback: The system provides clear confirmation when recommendations are generated, accepted, overridden, or saved.
+User Control: Nurses retain complete authority to override AI recommendations at any time.
+Error Prevention: Confirmation prompts and validation checks reduce accidental data entry errors.
+Accessibility: High-contrast colours, large fonts, simple icons, and colour combined with text improve usability for all clinicians.
+
 
 ## Environment
 The system is intended for deployment within the Emergency Department triage area at Mercer General Hospital.
