@@ -84,6 +84,7 @@ The details view includes:
 - **Confirm Review** option
 - **Override / Change Priority** option
 
+The nurse remains responsible for reviewing the AI recommendation and applying clinical judgement.
 
 ### 2.3 Prototype Features
 
