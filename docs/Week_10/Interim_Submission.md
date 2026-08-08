@@ -60,9 +60,30 @@ The prototype includes:
 - Colour as a secondary visual cue
 - Clear separation between AI recommendation and clinician decision
 
-### 2.2 Prototype Image
+### 2.2 Low-Fidelity Prototype Image
 
-![Week 10 GUI Prototype](images/week10_gui_prototype.png)
+
+### ED Triage Dashboard
+
+The low-fidelity prototype shows the main ED triage dashboard used by the nurse. It includes the patient queue, four urgency tiers, the Critical alert banner, and the **View Details** interaction.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3bfa8167-125f-440e-8b03-e224dac5fedb" />
+
+
+### View Details Interaction
+
+When the nurse selects **VIEW DETAILS**, the prototype displays supporting patient information while clearly identifying the AI output as a decision-support recommendation rather than a final clinical decision.
+
+The details view includes:
+
+- Patient identifier
+- AI urgency tier
+- Action-oriented urgency message
+- Key observations
+- AI decision-support notice
+- **Confirm Review** option
+- **Override / Change Priority** option
+
 
 ### 2.3 Prototype Features
 
