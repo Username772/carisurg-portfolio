@@ -1,0 +1,143 @@
+# Week 11: Final Project Consolidation
+
+## Project Overview
+
+This repository contains my finalized individual contribution to the AI-Assisted Emergency Department (ED) Triage project. The project investigates the use of machine learning as a clinical decision-support tool for Emergency Severity Index (ESI) classification.
+
+My contribution includes data exploration, baseline modelling, model optimisation, reproducibility, project handover, and human-centred system design.
+
+The final project is presented as a proof of concept. The AI system is intended to support, not replace, clinical judgement.
+
+## Individual Contribution
+
+My individual work includes:
+
+* ED triage dataset exploration and preparation.
+* Baseline model development and evaluation.
+* Logistic Regression and Decision Tree comparison.
+* Model evaluation using Accuracy, Macro-F1 and ESI 1 recall.
+* Feature engineering using clinically relevant triage variables.
+* Random Forest optimisation and comparison.
+* Selection of the final Logistic Regression model.
+* Reproducibility and modular project structure.
+* Model handover documentation.
+* HCI/HRI prototype development.
+* Safety and failure-handling design.
+* Accessibility and deployment considerations.
+
+## Final Model
+
+The final proof-of-concept model is **Logistic Regression**.
+
+It was selected because it achieved the strongest evaluated Macro-F1 performance among the tested models while providing a relatively simple and interpretable approach suitable for clinician-facing decision support.
+
+### Model Results
+
+| Model               | Accuracy | Macro-F1 | ESI 1 Recall |
+| ------------------- | -------: | -------: | -----------: |
+| Dummy Classifier    |    0.375 |    0.204 |         0.00 |
+| Logistic Regression |    0.667 |    0.495 |         0.25 |
+| Decision Tree       |    0.556 |    0.216 |         0.00 |
+
+A Random Forest model using engineered features achieved a Macro-F1 of approximately 0.3901 in the evaluated run and therefore did not outperform the Logistic Regression baseline.
+
+## Final Deployment Position
+
+The model is **not recommended for autonomous clinical triage**.
+
+The limited ESI 1 recall is an important safety limitation. The appropriate deployment concept is a human-in-the-loop decision-support system:
+
+**Patient information → AI recommendation → Clinician review → Final clinical decision**
+
+The clinician remains responsible for the final triage decision.
+
+## Human-Centred Design
+
+The proposed system includes a nurse-facing ED triage dashboard that displays relevant patient information, vital signs and the AI recommendation.
+
+The design supports:
+
+* Clear presentation of urgency.
+* Clinician review.
+* Manual override.
+* Manual triage when AI is unavailable.
+* Clear communication of system limitations.
+* Reduced risk of automation bias.
+
+An HRI/Observation Unit concept was also developed using a kiosk/robot-assisted interaction model with touchscreen, sensor and potential voice inputs.
+
+## Safety and Failure Handling
+
+Key safety considerations include:
+
+* Automation bias.
+* Incorrect AI recommendations.
+* Alarm fatigue.
+* Sensor/device failure.
+* EHR/system outages.
+* Voice-recognition failure.
+* Physical interaction and accessibility issues.
+
+The system provides fallback mechanisms so that technology failure does not prevent clinicians from completing triage.
+
+Examples include:
+
+| Failure                | Response                                |
+| ---------------------- | --------------------------------------- |
+| EHR unavailable        | Manual patient entry                    |
+| Device connection lost | Manual vital entry                      |
+| AI unavailable         | Continue manual triage                  |
+| Power interruption     | Restore previous session where possible |
+
+## Limitations
+
+The current proof of concept has several limitations:
+
+* The dataset represents a single Caribbean clinical setting.
+* ESI classes are imbalanced.
+* ESI 1 recall remains limited.
+* The model has not undergone prospective clinical validation.
+* External validation is required.
+* The prototype has not been tested in a live ED.
+* Accessibility testing is still required.
+* Production EHR integration has not been demonstrated.
+* Model performance may not generalise to other hospitals or populations.
+
+## Deployment Readiness
+
+Before supervised clinical deployment, the project would require:
+
+1. External validation.
+2. Additional evaluation of ESI 1 performance.
+3. Clinical review and validation.
+4. Prospective testing.
+5. Usability testing.
+6. Accessibility testing.
+7. Data-governance and security review.
+8. EHR integration testing.
+9. Model monitoring and drift detection.
+10. Clear clinical accountability procedures.
+
+## Final Repository Contents
+
+The finalized GitHub repository contains the relevant project artefacts from my individual work, including:
+
+* Data exploration work.
+* Baseline modelling.
+* Model optimisation.
+* Final Logistic Regression model.
+* Model evaluation results.
+* Source code.
+* `config.yaml`.
+* Handover documentation.
+* HCI prototype.
+* HRI prototype.
+* Safety and failure-handling documentation.
+* Project README.
+* Final limitations and deployment considerations.
+
+## Final Statement
+
+This Week 11 submission consolidates my individual contribution into a reproducible and documented proof-of-concept AI-assisted ED triage system.
+
+The final recommendation is to retain Logistic Regression as the proof-of-concept model and use it only as clinician-facing decision support. Further validation and supervised testing are required before any clinical deployment.
